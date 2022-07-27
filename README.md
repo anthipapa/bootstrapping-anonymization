@@ -7,10 +7,10 @@ Out of all the texts, 20 were annotated by 2 annotators instead of 1. Each annot
 | Name | Description |
 | --- | --- |
 | **entity_type** | Semantic category for the span (e.g. *LOC*, *ORG*) |
-| **entity_mention_id** | ID for the mention |
+| **entity_mention_id** | ID for the entity mention |
 | **start_offset** | the character offset where the span starts |
 | **end_offset** | the character offset where the span ends|
 | **span_text** | the text of the span |
-| **edit_type** | check/insert/correct as an action taken by the annotator |
-| **identifier_type** | whether the span is a *DIRECT* or a *QUASI identifier* (and thus masked), or *NO_MASK* |
-| **entity_id** | which entity mention ID the entity related to as far as meaning is concerned |
+| **edit_type** | *check/insert/correct* as an action taken by the annotator |
+| **identifier_type** | whether the span is a *DIRECT* or a *QUASI identifier* (masked spans), or *NO_MASK* |
+| **entity_id** | which entity mention ID the entity relates to as far as meaning is concerned |
