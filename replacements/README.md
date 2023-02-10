@@ -1,8 +1,8 @@
-# Manually annotated Wikipedia summaries
+# Replacement choices in Text Sanitization
 
-A dataset of 553 Wikipedia summaries, manually annotated for text anonymization, along with the annotation guidelines. Used for evaluation in the paper ["Bootstrapping Text Anonymization Models with Distant Supervision"][https://aclanthology.org/2022.lrec-1.476/].
+A enriched dataset of 553 Wikipedia summaries, manually annotated for replacement options for text sanitization, along with the annotation guidelines. Presented in "Generation of Replacement Options in Text Sanitization".
 
-Out of all the texts, 20 were annotated by 2 annotators instead of 1. Each annotation is assigned the following:
+Out of all the texts, 22 were annotated by more than one annotators. Each annotation is assigned the following:
 
 | Name | Description |
 | --- | --- |
@@ -14,3 +14,6 @@ Out of all the texts, 20 were annotated by 2 annotators instead of 1. Each annot
 | **edit_type** | *check/insert/correct* as an action taken by the annotator |
 | **identifier_type** | whether the span is a *DIRECT* or a *QUASI identifier* (masked spans), or *NO_MASK* |
 | **entity_id** | which entity mention ID the entity relates to as far as meaning is concerned |
+| **generalizations** | list of possible hierarchical replacements for the span |
+| **generalizatin_selection** | which replacement was chosen by the annotator |
+| **generalized_text** | the resulting text after replacements were chosen |
