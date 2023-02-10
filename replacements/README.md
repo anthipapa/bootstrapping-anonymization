@@ -15,5 +15,5 @@ Out of all the texts, 22 were annotated by more than one annotators. Each annota
 | **identifier_type** | whether the span is a *DIRECT* or a *QUASI identifier* (masked spans), or *NO_MASK* |
 | **entity_id** | which entity mention ID the entity relates to as far as meaning is concerned |
 | **generalizations** | list of possible hierarchical replacements for the span |
-| **generalizatin_selection** | which replacement was chosen by the annotator |
+| **generalization_selection** | which replacement was chosen by the annotator |
 | **generalized_text** | the resulting text after replacements were chosen |
