@@ -1,6 +1,6 @@
 # Manually annotated Wikipedia summaries
 
-A dataset of 553 Wikipedia summaries, manually annotated for text anonymization, along with the annotation guidelines. Used for evaluation in the paper ["Bootstrapping Text Anonymization Models with Distant Supervision"][https://aclanthology.org/2022.lrec-1.476/].
+A dataset of 553 Wikipedia summaries, manually annotated for text anonymization, along with the annotation guidelines. Used for evaluation in the paper ["Bootstrapping Text Anonymization Models with Distant Supervision"](https://aclanthology.org/2022.lrec-1.476/).
 
 Out of all the texts, 20 were annotated by 2 annotators instead of 1. Each annotation is assigned the following:
 
