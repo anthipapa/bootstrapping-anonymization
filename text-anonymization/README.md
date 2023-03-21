@@ -15,6 +15,7 @@ Out of all the texts, 20 were annotated by 2 annotators instead of 1. Each annot
 | **identifier_type** | whether the span is a *DIRECT* or a *QUASI identifier* (masked spans), or *NO_MASK* |
 | **entity_id** | which entity mention ID the entity relates to as far as meaning is concerned |
 
+The folder *anonymized-data* contains two json files, where the key corresponds to the document ids ('doc_id') that can be found in the Wikipedia dataset, and the values are the start and end offset of the spans that are to be masked. The term *greedy* and *random* refer to the two ways of deciding which entity to mask from a combination of risky entities, described in the paper below.
 
 ##Citation
 
