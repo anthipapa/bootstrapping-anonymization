@@ -20,7 +20,7 @@ Out of all the texts, 22 were annotated by more than one annotators. Each annota
 
 
 
-##Citation
+## Citation
 
 See our paper describing the dataset:
 
@@ -42,3 +42,4 @@ Annika Willoch Olstad, Anthi Papadopoulou, and Pierre Lison. 2023. "[Generation 
     pages = "292--300",
     abstract = "The purpose of text sanitization is to edit text documents to mask text spans that may directly or indirectly reveal personal information. An important problem in text sanitization is to find less specific, yet still informative replacements for each text span to mask. We present an approach to generate possible replacements using a combination of heuristic rules and an ontology derived from Wikidata. Those replacement options are hierarchically structured and cover various types of personal identifiers. Using this approach, we extend a recently released text sanitization dataset with manually selected replacements. The outcome of this data collection shows that the approach is able to suggest appropriate replacement options for most text spans.",
 }
+```
