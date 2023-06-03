@@ -17,3 +17,28 @@ Out of all the texts, 22 were annotated by more than one annotators. Each annota
 | **generalizations** | list of possible hierarchical replacements for the span |
 | **generalization_selection** | which replacement was chosen by the annotator |
 | **generalized_text** | the resulting text after replacements were chosen |
+
+
+
+##Citation
+
+See our paper describing the dataset:
+
+Annika Willoch Olstad, Anthi Papadopoulou, and Pierre Lison. 2023. "[Generation of Replacement Options in Text Sanitization](https://aclanthology.org/2023.nodalida-1.30/)". *In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa), pages 292–300, Tórshavn, Faroe Islands. University of Tartu Library.*
+
+
+```bibtex
+@inproceedings{olstad-etal-2023-generation,
+    title = "Generation of Replacement Options in Text Sanitization",
+    author = "Olstad, Annika Willoch  and
+      Papadopoulou, Anthi  and
+      Lison, Pierre",
+    booktitle = "Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa)",
+    month = may,
+    year = "2023",
+    address = "T{\'o}rshavn, Faroe Islands",
+    publisher = "University of Tartu Library",
+    url = "https://aclanthology.org/2023.nodalida-1.30",
+    pages = "292--300",
+    abstract = "The purpose of text sanitization is to edit text documents to mask text spans that may directly or indirectly reveal personal information. An important problem in text sanitization is to find less specific, yet still informative replacements for each text span to mask. We present an approach to generate possible replacements using a combination of heuristic rules and an ontology derived from Wikidata. Those replacement options are hierarchically structured and cover various types of personal identifiers. Using this approach, we extend a recently released text sanitization dataset with manually selected replacements. The outcome of this data collection shows that the approach is able to suggest appropriate replacement options for most text spans.",
+}
