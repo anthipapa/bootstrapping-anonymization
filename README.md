@@ -1,11 +1,11 @@
 A dataset of 553 summeries, manually annotated for text anonymization (text-anonymization), and further enriched with replacement options for each PII span (wiki-replace).
 
 
-## Citation
+# Citation
 
 See our papers describing both datasets:
 
-# text-anonymization
+## text-anonymization
 
 Anthi Papadopoulou, Pierre Lison, Lilja Øvrelid and Ildikó Pilán (2022), "[Bootstrapping Text Anonymization Models with Distant Supervision](https://aclanthology.org/2022.lrec-1.476/)", *In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 4477–4487, Marseille, France. European Language Resources Association.*
 
@@ -27,7 +27,7 @@ Anthi Papadopoulou, Pierre Lison, Lilja Øvrelid and Ildikó Pilán (2022), "[Bo
 }
 ```
 
-# wiki-replace
+## wiki-replace
 
 Annika Willoch Olstad, Anthi Papadopoulou, and Pierre Lison. 2023. "[Generation of Replacement Options in Text Sanitization](https://aclanthology.org/2023.nodalida-1.30/)". *In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa), pages 292–300, Tórshavn, Faroe Islands. University of Tartu Library.*
 
